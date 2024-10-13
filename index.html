@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- daisyui -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css"
+      rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    .font-poppins{
+        font-family: "Poppins", sans-serif;
+    }
+</style>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'bike-primary': '#E76F51',
+            'bike-primary-bg': 'rgba(231,111,81,0.1)',
+            
+            
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+<body>
+    <!-- header section -->
+     <header>
+      <div class="  flex justify-between ">
+        <div class="lg:flex ml-10 ">
+          <ul class="menu menu-horizontal px-1">
+            <li class="text-2xl font-semibold"><a>personal</a></li>
+            <li class="text-2xl"><a>business</a></li>
+            <li class="text-2xl"><a>about</a></li>
+            <li class="text-2xl"><a>বাংলা</a></li>
+          </ul>
+        </div>
+        <div class="lg:flex mr-40 ">
+          <ul class="menu menu-horizontal px-1">
+            <li class="text-2xl font-semibold text-gray-600"><a>Get my gp</a></li>
+            <li class="text-2xl font-semibold text-gray-600"><a>Track gp shop order</a></li>
+            
+          </ul>
+          
+          <i class="fa-solid fa-magnifying-glass mt-7 text-2xl ml-5"></i>
+          <div class="flex gap-6 text-2xl font-semibold ml-12">
+          <i class="fa-regular fa-user   mt-7"></i>
+          <p class="mt-7 ">login</p>
+        </div>
+
+
+          
+        </div>
+        
+      </div>
+      <hr>
+      <br>
+      <br>
+      <div>
+        <div class="lg:flex ml-10  flex justify-around" >
+          <ul class="menu menu-horizontal px-1">
+            <li class="text-2xl font-semibold mr-44"><a>recharge</a></li>
+            <li class="text-2xl font-semibold mr-36 "><a>shop</a></li>
+            <li class="text-2xl font-semibold mr-36"><a>plan and offers</a></li> 
+            <li class="text-2xl font-semibold mr-36"><a>service</a></li>
+            <li class="text-2xl font-semibold mr-36"><a>Flexiplan</a></li> 
+            <li class="text-2xl font-semibold"><a>Gp star</a></li> 
+            
+          </ul>
+        </div>
+      </div>
+     </header>
+
+  
+     
+    
+     <!-- main section -->
+      <main>
+        <section>
+          <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img
+                src="images/slider-3.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="images/slider-3.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img
+                src="images/slider-3.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img
+                src="images/slider-4.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br>
+        <br>
+        <section>
+          <div class="flex justify-center bg-blue-100">
+            <!-- text section -->
+             <div class=" p-8 w-full max-w-md">
+              <h2 class="text-2xl font-bold mb-4">My Offer</h2>
+              <br>
+              <p class="mb-4">Find Customized offers tailored just for you</p>
+              <!-- input -->
+              <div class="flex gap-5">
+                <input type="text" placeholder="mobile number" class="border border-gray-300 rounded-md w-full mb-2 p-3 mb-4">
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-2 rounded-md  mb-4 ">Go</button>
+
+              </div>
+             </div>
+             <!-- img section -->
+              <div>
+                <img src="images/section-1.svg" class="w-full" alt="">
+
+              </div>
+          </div>
+         
+         
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section >
+          <div class="flex justify-center gap-8">
+            <img src="images/img-2.webp" alt="">
+            <img src="images/img-3.webp" alt="">
+          </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section class="flex justify-center gap-6">
+          <img class="bg-white shadow-lg"   src="images/internet-1.webp" alt="">
+          <img class="bg-white shadow-lg"    src="images/internet-3.webp" alt="">
+        </section>
+        <br>
+        <br>
+        <br>
+        <section>
+          <h3 class="text-4xl font-bold text-black text-center mb-16">Exclusive Deals From Gp Online Shop</h3>
+          <div class="grid grid-cols-3 ml-52">
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure class="px-10 pt-10">
+             <img src="images/phone img-3.webp" alt="">
+                
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">SYMPHONY MTO5</h2>
+              <p>TK 8923</p>
+              <P>salxtra Limited</P>
+            </div>
+          </div>
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure class="px-10 pt-10">
+             <img src="images/phone img-4.webp" alt="">
+                
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">SYMPHONY MTO5</h2>
+              <p>TK 8923</p>
+              <P>salxtra Limited</P>
+            </div>
+          </div>
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure class="px-10 pt-10">
+             <img src="images/phone img.webp" alt="">
+                
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">SYMPHONY MTO5</h2>
+              <p>TK 8923</p>
+              <P>salxtra Limited</P>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-20 ">
+          <button class="bg-blue-500 text-white text-center px-14 py-6 text-3xl font-semibold">Browse Shop</button>
+        </div>
+        </section>
+        <br>
+        
+        
+        <section>
+          <h3 class="text-4xl font-bold text-black mt-32 mb-32 text-center">Join The 4G Revolution Today</h3>
+          <div class="grid grid-cols-2 gap-8">
+            <div class="flex  bg-blue-100 rounded-lg ml-32">
+              
+              <div class="text-center mt-24 ">
+                <h2 class="text-black font-bold text-3xl mt-5">New album is released!</h2>
+                <p class="text-2xl text-gray-500 mt-5">Click the button to listen on Spotiwhy app.</p>
+                <div class="">
+                  <button class="bg-blue-500 text-white px-8 py-3 text-2xl mt-5">Listen</button>
+                </div>
+              </div>
+              
+                <img  class="w-80"      src="images/4g img.webp" alt="">
+              
+            </div>
+            <div class="flex bg-orange-50 rounded-xl mr-32">
+              
+              <div class="text-center mt-24 ">
+                <h2 class="text-black font-bold text-3xl mt-5">New album is released!</h2>
+                <p class="text-2xl text-gray-500 mt-5">Click the button to listen on Spotiwhy app.</p>
+                <div class="">
+                  <button class="bg-blue-500 text-white px-8 py-3 text-2xl mt-5">Listen</button>
+                </div>
+              </div>
+              
+                <img  class="w-80"      src="images/4g imge.webp" alt="">
+              
+            </div>
+           
+          </div>
+        </section>
+        <br>
+        <br>
+        <section class="">
+          <div class="bg-blue-100 mt-14">
+          <h3 class="text-4xl font-bold text-black  text-center  mb-14 ">Enjoy A World Of Privilige As A Gp Star</h3>
+          <div class="grid grid-cols-2 ">
+            <div class=" shadow-lg  ml-48 ">
+              <figure>
+                <img class=""   src="images/gp star-2.webp" alt="">
+                
+              </figure>
+              <div class="card-body bg-white">
+                <h2 class="text-black font-semibold text-3xl">Walton Computers</h2>
+                <p class="text-2xl">15% Discount</p>
+                
+              </div>
+            </div>
+            <div class="shadow-lg   mr-48 ">
+              <figure>
+                <img class=""   src="images/gp star-1.webp" alt="">
+                
+              </figure>
+              <div class="card-body bg-white">
+                <h2 class="text-black font-semibold text-3xl">Walton Computers</h2>
+                <p class="text-2xl">15% Discount</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <br>
+        <section>
+          <div class="grid grid-cols-2 mr-32 ml-32">
+          <div class=" shadow-lg   ">
+            <figure>
+              <img class=""   src="images/biriany img.webp" alt="">
+              
+            </figure>
+            <div class="card-body bg-white">
+              <h2 class="text-black font-semibold text-3xl">Buffet Stories</h2>
+              <p class="text-2xl">15% Discount</p>
+              
+            </div>
+          </div>
+          <div class=" shadow-lg  ">
+            <figure>
+              <img class=""   src="images/cup cake img.webp" alt="">
+              
+            </figure>
+            <div class="card-body bg-white">
+              <h2 class="text-black font-semibold text-3xl">Relationship Manager</h2>
+              <p class="text-2xl">15% Discount</p>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="flex justify-center mt-5">
+        <button class="bg-blue-500 text-white text-center px-14 py-6 text-3xl font-semibold ">Browse Gp star  </button>
+      </div>
+        </section>
+        <br>
+        <br>
+        <section>
+          <div class="">
+          <!-- img section -->
+           <div class="flex justify-center space-x-5 ">
+            <img class="rounded-xl"  src="images/gp.webp" alt="">
+            <img class="rounded-xl"   src="images/gp--2.webp" alt="">
+           </div>
+          </div>
+        </section>
+        <section>
+          <h3 class="text-4xl font-semibold text-center mt-11 mb-16">How can we help</h3>
+          <div class="flex justify-center space-x-40">
+        <div class="text-center">
+          <!-- first -->
+              
+          <div class="bg-blue-600 text-white p-4 rounded-full mb-2">
+            <i class="fa-sharp fa-solid fa-exclamation"></i>
+
+          </div>
+          <p class="font-bold text-2xl">Find a Gp Star</p>
+            
+            
+        </div>
+        <!-- second -->
+        <div class="text-center">
+              
+          <div class="bg-blue-600 text-white p-4 rounded-full mb-2">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+
+          </div>
+          <p class="font-bold text-2xl">Notice board</p>
+            
+            
+        </div>
+        <!-- third -->
+        <div class="text-center">
+              
+          <div class="bg-blue-600 text-white p-4 rounded-full mb-2">
+            <i class="fa-brands fa-google"></i>
+
+          </div>
+          <p class="font-bold text-2xl">Useful information</p>
+            
+            
+        </div>
+        <!-- fourth -->
+        <div class="text-center">
+              
+          <div class="bg-blue-600 text-white p-4 rounded-full mb-2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <p class="font-bold text-2xl">Find us</p>
+            
+            
+        </div>
+
+          </div>
+        </section>
+        <br>
+        <br>
+
+        <section>
+          <img src="images/blue sky.webp" alt="">
+        </section>
+
+      </main>
+      <br>
+      <br>
+      <!-- footer sect<ion -->
+       <footer>
+        <footer class="footer bg-base-200 text-base-content p-10">
+          <div>
+          <h3 class="text-3xl text-black font-bold">Follow Us</h3>
+          <div class="space-x-5 mt-8">
+            <i class="fa-brands fa-facebook text-3xl"></i>
+            <i class="fa-brands fa-instagram text-3xl"></i>
+            <i class="fa-brands fa-youtube text-3xl"></i>
+            <i class="fa-sharp fa-solid fa-x text-3xl"></i>
+            <i class="fa-brands fa-linkedin text-3xl"></i>
+
+
+
+          </div>
+        </div>
+          
+          <nav>
+            <h6 class="footer-title text-2xl  text-black font-bold">About</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title text-2xl font-bold text-black">Useful Links</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title text-2xl font-bold text-black">Customer Support</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </nav>
+        </footer>
+       </footer>
+    
+</body>
+</html>
